@@ -6,7 +6,7 @@ localnews:
   # -- The general image pull policy for all components
   imagePullPolicy: Always
   # -- Must be replaced with the apps domain of your ocp cluster, e.g. 'apps.ocp4.example.com'
-  domain: your-cluster.domain 
+  domain: apps.cluster-psgvr.psgvr.sandbox1756.opentlc.com 
   # -- Enables service mesh for all components except the database
   servicemesh: "off"
   mesh:
